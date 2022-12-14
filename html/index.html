@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vice City By Gizeh</title>
+    <link href="./assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/script.min.js"></script>
+  </head>
+
+  
+
+  <body>
+    <div class="container" style="display: none;">
+      <h1 class="menu-title">Pause menu</h1>
+      <img class="menu-logo" src="assets/img/vc-logo.svg" alt="Vice City Logo">
+      <svg class="menu-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="100%">
+        <defs>
+          <pattern id="menu-bgi" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image xlink:href="assets/img/background.jpg" x="0" y="0" width="100" height="100" />
+          </pattern>
+        </defs>
+        <polygon class="menu-bg-path" fill="url(#menu-bgi)" x="0" y="0"></polygon>
+      </svg>
+        
+        <nav class='menu'>
+          <svg class="menu__walker" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%">
+            <polygon class="menu__walker-path"></polygon>
+          </svg>
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a id="exit" class="menu__link">Resume</a>
+            </li>
+            <li class="menu__item">
+              <a id="mapopen" class="menu__link">Map</a>
+            </li>
+            <li class="menu__item">
+              <a id="settingsOpen" class="menu__link">Options</a>
+            </li>
+            <li class="menu__item">
+              <a id="discordinv" class="menu__link">Discord</a>
+            </li>
+            <li class="menu__item">
+              <a id="tebexshop" class="menu__link">Tebex</a>
+            </li>
+          </ul>
+        </nav>
+        <div class ="playerinfo">
+          <h1  class="players">1/128</h1>
+          <h1  class="playerid">#ID</h1>
+          <h1  class="playername">Name</h1>
+        </div>
+    </div>
+  </body>
+</html>
